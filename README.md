@@ -14,9 +14,6 @@
 
 - **Python**: Ensure Python is installed. Check your version by running:
 
-bash
-
-Copy code
 
 python --version
 
@@ -24,17 +21,11 @@ If Python is not installed, download it from [python.org](https://www.python.org
 
 - **PyPDF4**: Install the PyPDF4 library, which handles the PDF merging:
 
-bash
-
-Copy code
 
 pip install PyPDF4
 
 If you're using Python 3, the command might be:
 
-bash
-
-Copy code
 
 pip3 install PyPDF4
 
@@ -44,25 +35,18 @@ pip3 install PyPDF4
 
 Clone this repository to your local machine using the following command:
 
-bash
 
-Copy code
+git clone [PDF_merger](https://github.com/ROHANDAS2003/PDF_merger)
 
-git clone your-github-repo-link
 
-Replace your-github-repo-link with the actual URL of this GitHub repository. Once the repository is cloned, navigate into the project directory:
+cd PDF_merger
 
-bash
-
-Copy code
-
-cd folder-name # Replace 'folder-name' with the name of your repository folder
 
 ### Step 2: Set Up the Folder Structure
 
 Ensure your PDF files are in the same directory as the pdf_merger.py script. For example:
 
-Copy code
+
 
 project-folder/
 
@@ -74,47 +58,32 @@ project-folder/
 
 └── document3.pdf
 
+
 ### Step 3: Install Dependencies
 
 Make sure the required dependencies are installed by running the following command:
-
-bash
-
-Copy code
 
 pip install PyPDF4
 
 If you're using Python 3, you might need to run:
 
-bash
-
-Copy code
-
 pip3 install PyPDF4
+
 
 ### Step 4: Run the Script
 
 Now that the PDF files are in the same directory and dependencies are installed, you can run the script. Make sure you're still in the project directory and run:
 
-bash
-
-Copy code
-
 python pdf_merger.py
 
 For Python 3, run:
 
-bash
-
-Copy code
-
 python3 pdf_merger.py
+
 
 ### Step 5: Output
 
 The script will create a merged PDF file named Final_pdf.pdf in the same directory. After merging, the individual PDF files will be deleted, and the folder will contain only the merged output:
-
-Copy code
 
 project-folder/
 
@@ -122,25 +91,26 @@ project-folder/
 
 ## Commands Summary
 
-bash
-
-Copy code
 
 \# Clone the repository
 
 git clone your-github-repo-link
 
+
 \# Navigate into the project folder
 
 cd folder-name
+
 
 \# Install PyPDF4 dependency
 
 pip install PyPDF4 # or pip3 install PyPDF4
 
+
 \# Run the script to merge PDFs
 
 python pdf_merger.py # or python3 pdf_merger.py
+
 
 ## Limitations
 
