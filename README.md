@@ -14,6 +14,10 @@
 
 - **Python**: Ensure Python is installed. Check your version by running:
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> ad5bef68ab1107163474ad22c1a108e635c0402a
 python --version
 
 If Python is not installed, download it from [python.org](https://www.python.org/downloads/).
@@ -25,6 +29,10 @@ pip install PyPDF4
 
 If you're using Python 3, the command might be:
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> ad5bef68ab1107163474ad22c1a108e635c0402a
 pip3 install PyPDF4
 
 ## How to Clone and Use the Project
@@ -33,18 +41,33 @@ pip3 install PyPDF4
 
 Clone this repository to your local machine using the following command:
 
+<<<<<<< HEAD
 git clone https://github.com/ROHANDAS2003/PDF_merger
+=======
+
+git clone [PDF_merger](https://github.com/ROHANDAS2003/PDF_merger)
+
+
+cd PDF_merger
+
+>>>>>>> ad5bef68ab1107163474ad22c1a108e635c0402a
 
 ### Step 2: Set Up the Folder Structure
 
 Ensure your PDF files are in the same directory as the pdf_merger.py script. For example:
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> ad5bef68ab1107163474ad22c1a108e635c0402a
 project-folder/
 
 ├── pdf_merger.py
 ├── document1.pdf
 ├── document2.pdf
 └── document3.pdf
+
 
 ### Step 3: Install Dependencies
 
@@ -56,6 +79,7 @@ If you're using Python 3, you might need to run:
 
 pip3 install PyPDF4
 
+
 ### Step 4: Run the Script
 
 Now that the PDF files are in the same directory and dependencies are installed, you can run the script. Make sure you're still in the project directory and run:
@@ -65,6 +89,7 @@ python pdf_merger.py
 For Python 3, run:
 
 python3 pdf_merger.py
+
 
 ### Step 5: Output
 
@@ -80,17 +105,21 @@ project-folder/
 
 git clone https://github.com/ROHANDAS2003/PDF_merger
 
+
 \# Navigate into the project folder
 
 cd folder-name
+
 
 \# Install PyPDF4 dependency
 
 pip install PyPDF4 # or pip3 install PyPDF4
 
+
 \# Run the script to merge PDFs
 
 python pdf_merger.py # or python3 pdf_merger.py
+
 
 ## Limitations
 
