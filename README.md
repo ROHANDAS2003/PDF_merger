@@ -13,11 +13,7 @@
 ## Prerequisites
 
 - **Python**: Ensure Python is installed. Check your version by running:
-
-<<<<<<< HEAD
-=======
-
->>>>>>> ad5bef68ab1107163474ad22c1a108e635c0402a
+- 
 python --version
 
 If Python is not installed, download it from [python.org](https://www.python.org/downloads/).
@@ -29,10 +25,6 @@ pip install PyPDF4
 
 If you're using Python 3, the command might be:
 
-<<<<<<< HEAD
-=======
-
->>>>>>> ad5bef68ab1107163474ad22c1a108e635c0402a
 pip3 install PyPDF4
 
 ## How to Clone and Use the Project
@@ -41,26 +33,16 @@ pip3 install PyPDF4
 
 Clone this repository to your local machine using the following command:
 
-<<<<<<< HEAD
 git clone https://github.com/ROHANDAS2003/PDF_merger
-=======
 
 git clone [PDF_merger](https://github.com/ROHANDAS2003/PDF_merger)
 
-
 cd PDF_merger
-
->>>>>>> ad5bef68ab1107163474ad22c1a108e635c0402a
 
 ### Step 2: Set Up the Folder Structure
 
 Ensure your PDF files are in the same directory as the pdf_merger.py script. For example:
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> ad5bef68ab1107163474ad22c1a108e635c0402a
 project-folder/
 
 ├── pdf_merger.py
